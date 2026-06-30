@@ -16,7 +16,7 @@ const Menu = () => {
         <div className='flex gap-6 mt-8'>
             {menus.map((item) => (
                 <div key={item.id} className='border flex flex-col items-center justify-center gap-2 border-[#DBDFD0] h-93.75 w-76.5'>
-                    <Image height={100} width={100} src={item.logo}/>
+                    <Image height={100} width={100} src={item.logo} alt='image'/>
                     <h2 className='text-[24px] font-bold'>
                         {item.name}
                     </h2>

@@ -9,7 +9,7 @@ const Offer = () => {
         {id: 4, name: "Events", desc: "In the new era of technology we look in the future with certainty for life.", image: "/event.svg"},
     ]
   return (
-    <div className='py-15 px-35'>
+    <div className='py-15 px-29'>
         <h2 className='text-[55px] font-medium leading-15 '>
             We also offer unique <br /> services for your events
         </h2>
@@ -17,7 +17,7 @@ const Offer = () => {
         <div className='grid grid-cols-4 gap-4 mt-16'>
             {offers.map((item) => (
                 <div key={item.id} className='flex flex-col gap-2.5'>
-                    <Image height={320} width={306} src={item.image}/>
+                    <Image height={320} width={306} src={item.image} alt='images'/>
                     <h2 className='text-[24px] font-bold'>
                         {item.name}
                     </h2>

@@ -5,10 +5,10 @@ import React from 'react'
 const About = () => {
   return (
     <div className='bg-[#F9F9F7] inset-0 min-h-185 flex items-center justify-center w-full'>
-        <div className='flex items-center gap-16'>
+        <div className='flex items-center gap-35'>
             <div className='w-full flex'>
-                <Image height={566} width={599} src={"/shawarma.svg"} alt='image' className=''/>
-                <div className='absolute z-50 flex flex-col gap-3.5 rounded-2xl justify-center px-5 left-90 top-440 right-0 bg-[#474747] w-102.75 h-80.25'>
+                <Image height={566} width={599} src={"/shawarma.png"} alt='image' className=''/>
+                <div className='absolute flex flex-col gap-3.5 rounded-2xl justify-center px-5 left-90 top-440 right-0 bg-[#474747] w-102.75 h-80.25'>
                     <h2 className='text-[20px] font-bold text-white'>
                         Come and visit us
                     </h2>
