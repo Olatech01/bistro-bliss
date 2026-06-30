@@ -18,10 +18,10 @@ const Fastest = () => {
                 </div>
             </div>
             <div>
-                <h2 className='text-[55px] font-medium leading-[60.5px]'>
+                <h2 className='text-[55px] font-playfair font-medium leading-[60.5px]'>
                     Fastest Food <br /> Delivery in City
                 </h2>
-                <p className='text-[#414536] text-[16px] font-normal'>
+                <p className='text-[#414536] font-dm-sans text-[16px] font-normal'>
                     Our visual designer lets you quickly and of drag a down <br /> your way to customapps for both keep desktop.
                 </p>
                 <div className='flex flex-col gap-4 mt-10'>
@@ -30,7 +30,7 @@ const Fastest = () => {
                             <span className='bg-[#AD343E] flex items-center justify-center text-white h-7.5 w-7.5 rounded-full'>
                                 {item.icon}
                             </span>
-                            <h2>
+                            <h2 className='font-dm-sans text-[16px] font-medium'>
                                 {item.name}
                             </h2>
                         </div>

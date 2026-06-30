@@ -11,17 +11,17 @@ const Customers = () => {
 
   return (
     <div className='flex flex-col items-center py-20 justify-center'>
-        <h2 className='text-[55px] font-medium'>
+        <h2 className='text-[55px] font-playfair font-medium'>
             What Our Customers Say
         </h2>
 
         <div className='grid md:grid-cols-3 mt-7 gap-6 px-30'>
             {review.map((item) => (
                 <div key={item.id} className='bg-[#F9F9F7] flex flex-col gap-5 px-5 py-10 rounded-lg'>
-                    <span className='text-[#AD343E] text-[20px] font-bold'>
+                    <span className='text-[#AD343E] font-playfair text-[20px] font-bold'>
                         {item.title}
                     </span>
-                    <p className='text-[17px] text-[#414536] font-normal'>
+                    <p className='text-[17px] text-[#414536] font-dm-sans font-normal'>
                         {item.content}
                     </p>
                     <span className='border-b border-gray-200'/>

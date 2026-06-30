@@ -18,7 +18,7 @@ const Navbar = () => {
             <Image height={55} width={211} src={"/logo.svg"} alt='logo' />
             <ul className='flex gap-4'>
                 {navItems.map((item) => (
-                    <Link href={item.path} key={item.id} className={`h-8 w-19.25 text-[16px] font-medium rounded-full flex items-center justify-center ${pathname === item.path ? "bg-[#DBDFD0]" : ""}`}>
+                    <Link href={item.path} key={item.id} className={`h-8 w-19.25 text-[16px] font-dm-sans font-medium rounded-full flex items-center justify-center ${pathname === item.path ? "bg-[#DBDFD0]" : ""}`}>
                         <li>
                             {item.name}
                         </li>

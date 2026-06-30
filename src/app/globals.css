@@ -4,3 +4,11 @@
 body {
   font-family: sans-serif;
 }
+
+@theme {
+  --font-playfair: var(--font-playfair);
+}
+
+@theme {
+  --font-dm-sans: var(--font-dm-sans);
+}

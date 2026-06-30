@@ -33,11 +33,11 @@ const Articles = () => {
         <section className="bg-[#F9F9F7] py-20 px-6 lg:px-20">
             {/* Header */}
             <div className="flex flex-col md:flex-row justify-between items-center mb-12 gap-5">
-                <h2 className="text-4xl md:text-5xl font-bold text-[#2C2F24]">
+                <h2 className="text-4xl font-playfair md:text-5xl font-bold text-[#2C2F24]">
                     Our Blog & Articles
                 </h2>
 
-                <button className="bg-[#AD343E] text-white px-6 py-3 rounded-full font-medium hover:bg-[#922b34] transition">
+                <button className="bg-[#AD343E] font-dm-sans text-white px-6 py-3 rounded-full font-medium hover:bg-[#922b34] transition">
                     Read All Articles
                 </button>
             </div>
@@ -59,11 +59,11 @@ const Articles = () => {
                             June 30, 2026
                         </span>
 
-                        <h3 className="text-[#2C2F24] text-2xl font-semibold mt-3 mb-4">
+                        <h3 className="text-[#2C2F24] text-2xl font-playfair font-semibold mt-3 mb-4">
                             The Secret Tips & Tricks to Prepare Perfect Burgers and Pizzas
                         </h3>
 
-                        <p className="text-[#6F6F6F] leading-7">
+                        <p className="text-[#6F6F6F] font-dm-sans leading-7">
                             Discover the techniques professional chefs use to create
                             juicy burgers, crispy pizza crusts, and unforgettable flavors.
                             Learn how simple ingredients and cooking methods can transform
@@ -88,11 +88,11 @@ const Articles = () => {
                             />
 
                             <div className="p-5">
-                                <span className="text-gray-500 text-sm">
+                                <span className="text-gray-500 font-dm-sans text-sm">
                                     {item.time}
                                 </span>
 
-                                <h3 className="text-[#2C2F24] text-lg font-semibold mt-2 leading-7">
+                                <h3 className="text-[#2C2F24] font-playfair text-lg font-semibold mt-2 leading-7">
                                     {item.headline}
                                 </h3>
                             </div>

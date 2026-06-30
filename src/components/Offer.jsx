@@ -10,7 +10,7 @@ const Offer = () => {
     ]
   return (
     <div className='py-15 px-29'>
-        <h2 className='text-[55px] font-medium leading-15 '>
+        <h2 className='text-[55px] font-playfair font-medium leading-15 '>
             We also offer unique <br /> services for your events
         </h2>
 
@@ -18,10 +18,10 @@ const Offer = () => {
             {offers.map((item) => (
                 <div key={item.id} className='flex flex-col gap-2.5'>
                     <Image height={320} width={306} src={item.image} alt='images'/>
-                    <h2 className='text-[24px] font-bold'>
+                    <h2 className='text-[24px] font-playfair font-bold'>
                         {item.name}
                     </h2>
-                    <p className='text-[16px] font-normal'>
+                    <p className='text-[16px] font-dm-sans font-normal'>
                         {item.desc}
                     </p>
                 </div>

@@ -10,20 +10,20 @@ const Menu = () => {
     ]
   return (
     <div className='flex flex-col items-center py-20 justify-center'>
-        <h2 className='font-medium text-[55px]'>
+        <h2 className='font-medium font-playfair text-[55px]'>
             Browse Our Menu 
         </h2>
         <div className='flex gap-6 mt-8'>
             {menus.map((item) => (
                 <div key={item.id} className='border flex flex-col items-center justify-center gap-2 border-[#DBDFD0] h-93.75 w-76.5'>
                     <Image height={100} width={100} src={item.logo} alt='image'/>
-                    <h2 className='text-[24px] font-bold'>
+                    <h2 className='text-[24px] font-playfair font-bold'>
                         {item.name}
                     </h2>
-                    <p className='w-59.5 text-center text-[16px]'>
+                    <p className='w-59.5 font-dm-sans text-center text-[16px]'>
                         {item.description}
                     </p>
-                    <button className='text-[#AD343E] text-[16px] font-bold mt-3 cursor-pointer'>
+                    <button className='text-[#AD343E] font-playfair text-[16px] font-bold mt-3 cursor-pointer'>
                         Explore Menu
                     </button>
                 </div>

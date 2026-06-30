@@ -59,7 +59,7 @@ const Footer = () => {
                             </h2>
                         </div>
 
-                        <p className="text-[#ADB29E] leading-8 max-w-xs">
+                        <p className="text-[#ADB29E] font-dm-sans leading-8 max-w-xs">
                             In the new era of technology we look a in the future with
                             certainty and pride to for our company and.
                         </p>
@@ -85,7 +85,7 @@ const Footer = () => {
                     <div>
                         <h3 className="font-semibold mb-8">Pages</h3>
 
-                        <ul className="space-y-5 text-[#DBDFD0]">
+                        <ul className="space-y-4 font-dm-sans text-[#DBDFD0]">
                             {pages.map((item) => (
                                 <li key={item}>
                                     <Link
@@ -105,7 +105,7 @@ const Footer = () => {
                             Utility Pages
                         </h3>
 
-                        <ul className="space-y-5 text-[#DBDFD0]">
+                        <ul className="space-y-4 font-dm-sans text-[#DBDFD0]">
                             {utilityPages.map((item) => (
                                 <li key={item}>
                                     <Link
