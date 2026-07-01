@@ -1,11 +1,12 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import React from 'react'
 
 const Navbar = () => {
     const pathname = usePathname()
+    const router = useRouter()
     const navItems = [
         { id: 1, name: "Home", path: "/" },
         { id: 2, name: "About", path: "/about" },
@@ -25,7 +26,7 @@ const Navbar = () => {
                     </Link>
                 ))} 
             </ul>
-            <button className='border border-[#2C2F24] w-37.5 h-12.5 rounded-full'>
+            <button onClick={() => router.push("/book")} className='border border-[#2C2F24] cursor-pointer w-37.5 h-12.5 rounded-full'>
                 Book A Table
             </button>
         </div>
