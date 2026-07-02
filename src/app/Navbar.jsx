@@ -11,8 +11,8 @@ const Navbar = () => {
         { id: 1, name: "Home", path: "/" },
         { id: 2, name: "About", path: "/about" },
         { id: 3, name: "Menu", path: "/menu" },
-        { id: 4, name: "Pages", path: "/page" },
-        { id: 5, name: "Conatct", path: "/contact" },
+        { id: 4, name: "Blog", path: "/blogs" },
+        { id: 5, name: "Contact", path: "/contact" },
     ]
     return (
         <div className='flex fixed top-0 left-0 right-0 z-50 bg-white shadow w-full items-center py-4 justify-around'>
