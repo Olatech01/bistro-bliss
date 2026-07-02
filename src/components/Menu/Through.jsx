@@ -8,8 +8,8 @@ const Through = () => {
         <h2 className='font-playfair w-[346px] font-medium leading-13 text-[55px]'>
           You can order through apps
         </h2>
-        <p className='font-dm-sans w-[346px] font-normal leading-6 text-[16px]'>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.
+        <p className='font-dm-sans w-[380px] font-normal leading-relaxed text-[18px] text-gray-600'>
+          Browse your favorite restaurants, customize your meal, and track your delivery in real-time — all from the palm of your hand.
         </p>
       </div>
       <div className='flex flex-col items-center'>
