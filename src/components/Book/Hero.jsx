@@ -14,11 +14,11 @@ const Hero = () => {
         <section className="relative min-h-screen flex-col flex gap-6 py-20 bg-[#f9f9f7]">
             {/* Header */}
             <div className="pt-16 text-center">
-                <h1 className="text-6xl font-serif">
+                <h1 className="text-[100px] font-playfair">
                     Book A Table
                 </h1>
 
-                <p className="mt-4 text-gray-500 font-dm-sans max-w-md mx-auto">
+                <p className="text-gray-500 font-dm-sans max-w-md mx-auto">
                     We consider all the drivers of change gives you
                     the components you need to change to create a
                     truly happens.
