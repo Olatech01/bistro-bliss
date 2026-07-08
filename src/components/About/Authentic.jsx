@@ -53,7 +53,7 @@ const Authentic = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-3 w-[80%] my-20'>
+            <div className='grid md:grid-cols-3 grid-cols-1 md:gap-0 gap-10 md:w-[80%] w-full md:px-0 px-7 my-20'>
                 {multi.map((item) => (
                     <div key={item.id} className='flex items-center gap-4'>
                         <Image height={48} width={48} src={item.icon} alt='imges'/>

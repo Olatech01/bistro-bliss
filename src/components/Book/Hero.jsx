@@ -11,10 +11,10 @@ const MapComponent = dynamic(
 
 const Hero = () => {
     return (
-        <section className="relative min-h-screen flex-col flex gap-6 py-20 bg-[#f9f9f7]">
+        <section className="relative min-h-screen md:px-0 px-7 flex-col flex gap-6 py-20 bg-[#f9f9f7]">
             {/* Header */}
             <div className="pt-16 text-center">
-                <h1 className="text-[100px] font-playfair">
+                <h1 className="md:text-[100px] text-[80px] font-playfair">
                     Book A Table
                 </h1>
 
@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
 
             {/* Form */}
-            <div className="w-[812px] mx-auto mt-12 bg-white rounded-2xl p-8 shadow-lg">
+            <div className="md:w-[812px] w-full mx-auto mt-12 bg-white rounded-2xl p-8 shadow-lg">
                 <form className="space-y-5">
                     <div className="grid md:grid-cols-2 gap-5">
                         {/* Date */}

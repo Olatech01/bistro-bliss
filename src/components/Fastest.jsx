@@ -9,15 +9,15 @@ const Fastest = () => {
         { id: 3, name: "Online Services Available", icon: <ShoppingCart size={15}/> },
     ]
     return (
-        <div className='flex items-center justify-center gap-30 bg-[#F9F9F7] py-20'>
+        <div className='flex md:flex-row flex-col-reverse items-center justify-center md:gap-30 gap-10 bg-[#F9F9F7] py-20'>
             <div className='flex items-center gap-4'>
-                <Image height={600} width={431} src={"/chef.svg"} alt='chef' />
-                <div className='mt-28 flex flex-col gap-2.5'>
+                <Image height={600} width={431} src={"/chef.svg"} alt='chef' className='md:w-[431px] w-full'/>
+                <div className='mt-28 md:block hidden flex-col gap-2.5 space-y-3'>
                     <Image height={333} width={290} src={"/sauce.svg"} alt='sauce' />
                     <Image height={333} width={290} src={"/protein.svg"} alt='sauce' />
                 </div>
             </div>
-            <div>
+            <div className='md:px-0 px-7 w-full md:w-fit'>
                 <h2 className='text-[55px] font-playfair font-medium leading-[60.5px]'>
                     Fastest Food <br /> Delivery in City
                 </h2>

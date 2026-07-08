@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="max-w-7xl mx-auto px-6">
                 {/* Heading */}
                 <div className="text-center">
-                    <h1 className="font-playfair text-6xl md:text-7xl text-[#2C2F24]">
+                    <h1 className="font-playfair text-[80px] md:text-[100px] text-[#2C2F24]">
                         Contact Us
                     </h1>
 

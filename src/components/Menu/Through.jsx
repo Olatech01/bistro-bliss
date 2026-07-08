@@ -3,12 +3,12 @@ import React from 'react'
 
 const Through = () => {
   return (
-    <div className='flex items-center bg-[#F9F9F7] justify-center gap-10 py-20'>
-      <div className='flex flex-col gap-5'>
-        <h2 className='font-playfair w-[346px] font-medium leading-13 text-[55px]'>
+    <div className='flex md:flex-row flex-col items-center bg-[#F9F9F7] justify-center gap-10 py-20'>
+      <div className='flex flex-col gap-5 md:px-0 px-7'>
+        <h2 className='font-playfair md:w-[346px] w-full font-medium leading-13 text-[55px]'>
           You can order through apps
         </h2>
-        <p className='font-dm-sans w-[380px] font-normal leading-relaxed text-[18px] text-gray-600'>
+        <p className='font-dm-sans md:w-[380px] w-full font-normal leading-relaxed text-[18px] text-gray-600'>
           Browse your favorite restaurants, customize your meal, and track your delivery in real-time — all from the palm of your hand.
         </p>
       </div>

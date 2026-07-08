@@ -5,7 +5,7 @@ import React from 'react'
 const Hero = () => {
     return (
         <div className='bg-[#F9F9F7] min-h-screen py-20 flex items-center justify-center w-full'>
-            <div className='flex items-center gap-20 max-w-7xl mt-25 mx-auto px-8'>
+            <div className='flex md:flex-row flex-col items-center gap-20 max-w-7xl mt-25 mx-auto px-8'>
                 {/* Image Section with Overlay Card */}
                 <div className='relative shrink-0'>
                     <Image
