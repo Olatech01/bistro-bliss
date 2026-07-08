@@ -13,7 +13,7 @@ const Menu = () => {
         <h2 className='font-medium font-playfair text-[55px]'>
             Browse Our Menu 
         </h2>
-        <div className='flex gap-6 md:flex-row w-full md:px-0 px-7 flex-col mt-8'>
+        <div className='flex gap-6 md:flex-row w-full items-center justify-center md:px-0 px-7 flex-col mt-8'>
             {menus.map((item) => (
                 <div key={item.id} className='border flex flex-col items-center justify-center gap-2 border-[#DBDFD0] h-93.75 md:w-76.5 w-full'>
                     <Image height={100} width={100} src={item.logo} alt='image'/>
